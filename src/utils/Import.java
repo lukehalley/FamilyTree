@@ -100,8 +100,6 @@ public class Import {
 
 				}
 
-//				System.out.println("Mother found: " + motherName + "Father found: " + fatherName);
-
 			}
 
 		} catch (FileNotFoundException e) {
@@ -115,5 +113,7 @@ public class Import {
 		}
 
 	}
+	
+	
 
 }

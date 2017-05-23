@@ -17,8 +17,8 @@ public class Person implements Comparable<Person> {
 
 	@Override
 	public String toString() {
-		return "Person [First Name: " + firstName + ", Sex: " + sex + ", Date Of Birth: " + dateOfBirth + ", Mother: "
-				+ leftPerson + ", Father: " + rightPerson + "]";
+		return " First Name: " + firstName + "\n" + " Sex: " + sex + "\n" + " Date Of Birth: " + dateOfBirth + "\n" + " Mother: "
+				+ leftPerson + "\n" + " Father: " + rightPerson;
 	}
 
 	public String getFirstName() {

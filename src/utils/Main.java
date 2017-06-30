@@ -49,11 +49,11 @@ public class Main extends JPanel {
 	public static void main(String s[]) {
 		Import.InitialImport();
 		Import.LinkParents();
-		JFrame frame = new JFrame("Family Tree");
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setContentPane(new Main());
-		frame.setSize(1000, 1000);
-		frame.setVisible(true);
+		JFrame UI = new JFrame("Family Tree");
+		UI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		UI.setContentPane(new Main());
+		UI.setSize(1000, 1000);
+		UI.setVisible(true);
 	}
 
 }
